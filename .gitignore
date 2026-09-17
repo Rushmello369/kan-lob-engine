@@ -1,0 +1,94 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ---- Tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipython/
+.cache/
+
+# ---- Data (never commit FI-2010 or any market data) ----
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# ---- Model artefacts ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# ---- Generated RTL (reproducible from the export scripts) ----
+rtl/generated/*
+!rtl/generated/.gitkeep
+
+# ---- Simulation (cocotb / Verilator / Icarus) ----
+sim_build/
+obj_dir/
+*.vcd
+*.fst
+*.ghw
+*.shm/
+results.xml
+dump.vcd
+
+# ---- Vivado ----
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dcp
+*.bit
+*.ltx
+*.xsa
+.Xil/
+vivado*.backup*
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+NA/
+webtalk*
+# keep hand-written tcl and the reports worth showing
+!synth/scripts/*.tcl
+!synth/reports/*.rpt
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
