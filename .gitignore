@@ -92,3 +92,8 @@ desktop.ini
 .idea/
 *.swp
 *~
+
+# ---- Personal learning notes (local only) ----
+learning materials/
+learning/
+notes/

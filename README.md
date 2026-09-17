@@ -61,8 +61,7 @@ reported, along with an explanation of why.
 
 FI-2010 is used as a **fixed benchmark for comparing implementations**, not as evidence
 of a tradeable signal. Its published headline accuracies are partly an artefact of
-whole-dataset normalisation and smoothed multi-tick labels. See the warning in
-[`LEARNING.md`](LEARNING.md).
+whole-dataset normalisation and smoothed multi-tick labels.
 
 ---
 
@@ -78,6 +77,5 @@ docs/           project plan              data/           FI-2010 (gitignored)
 
 ## Reading
 
-- [`LEARNING.md`](LEARNING.md) — the reference list behind this project.
 - [`docs/kan-lob-engine_plan.md`](docs/kan-lob-engine_plan.md) — full plan, model lineage,
   roadmap and phase deliverables.
